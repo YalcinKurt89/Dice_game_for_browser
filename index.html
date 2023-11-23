@@ -13,14 +13,24 @@
       <h1>Refresh Me</h1>
 
       <div class="dice">
-        <p>Player 1</p>
+        <p>Spieler 1</p>
         <img class="img1" src="images/dice6.png">
       </div>
 
       <div class="dice">
-        <p>Player 2</p>
+        <p>Spieler 2</p>
         <img class="img2" src="images/dice6.png">
       </div>
+
+      <p>Spieler 1 Punkte: <span id="player1Points">0</span></p>
+      <p>Spieler 2 Punkte: <span id="player2Points">0</span></p>
+      
+      <div>
+        <br>
+        <button class="myButton" onclick="naechsteRunde()">Nächste Runde</button>
+        <button class="myButton" onclick="window.location.reload();">Neues Spiel</button>
+      </div>
+      
 
     </div>
 
