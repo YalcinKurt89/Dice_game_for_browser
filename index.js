@@ -73,3 +73,9 @@ function spielen() {
     document.querySelector("button").setAttribute("disabled", "disabled");
   }
 }
+
+document.addEventListener("keydown", function(event) {
+    if (event.keypress === 32) { // Tastencode für Leertaste ist 32
+      naechsteRunde(); // Startet die nächste Runde bei Leertaste
+    }
+  });
