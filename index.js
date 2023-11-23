@@ -57,10 +57,10 @@ function spielen() {
     player2Points++;
     document.getElementById("player2Points").textContent = player2Points;
   } else {
-    document.querySelector("h1").innerHTML = "Unentschieden in dieser Runde!";
+    document.querySelector("h1").innerHTML = "Unentschieden!";
   }
 
-  
+
   if (player1Points === 10 || player2Points === 10) {
     // Zeigt den Gewinner an und beendet das Spiel
     if (player1Points === 10) {
