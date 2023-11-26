@@ -49,25 +49,25 @@ function spielen() {
   document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
   if (randomNumber1 > randomNumber2) {
-    document.querySelector("h1").innerHTML = "Spieler 1 gewinnt die Runde!";
+    document.querySelector("h1").innerHTML = "Player 1 wins the round!";
     player1Points++;
     document.getElementById("player1Points").textContent = player1Points;
   } else if (randomNumber2 > randomNumber1) {
-    document.querySelector("h1").innerHTML = "Spieler 2 gewinnt die Runde!";
+    document.querySelector("h1").innerHTML = "Player 2 wins the round!";
     player2Points++;
     document.getElementById("player2Points").textContent = player2Points;
   } else {
-    document.querySelector("h1").innerHTML = "Unentschieden!";
+    document.querySelector("h1").innerHTML = "Draw!";
   }
 
 
   if (player1Points === 10 || player2Points === 10) {
     // Zeigt den Gewinner an und beendet das Spiel
     if (player1Points === 10) {
-      document.querySelector("h1").innerHTML = "Spieler 1 hat das Spiel gewonnen!";
+      document.querySelector("h1").innerHTML = "Player 1 has won the game!";
 
     } else {
-      document.querySelector("h1").innerHTML = "Spieler 2 hat das Spiel gewonnen!";
+      document.querySelector("h1").innerHTML = "Player 2 has won the game!";
     }
     // Deaktiviert den Button, um weitere Runden zu verhindern
     document.querySelector("button").setAttribute("disabled", "disabled");
