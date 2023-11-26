@@ -1,6 +1,6 @@
 # Dice Game For Browser
 
-![Dice Game Screenshot](insert_link_to_screenshot_here)
+<img src="https://raw.githubusercontent.com/YalcinKurt89/dice_game_for_browser/main/images/Homepage.jpg" alt="Alt-Text" width="300"/>
 
 This is a simple dice game created for browsers. It allows players to roll dice and enjoy a fun gaming experience.
 
@@ -19,8 +19,7 @@ This is a simple dice game created for browsers. It allows players to roll dice 
 
 ## Screenshots
 
-![Screenshot 1](insert_link_to_screenshot_1_here)
-![Screenshot 2](insert_link_to_screenshot_2_here)
+<img src="https://raw.githubusercontent.com/YalcinKurt89/dice_game_for_browser/main/images/Player_1_wins.jpg" alt="Alt-Text" height="250"/> <img src="https://raw.githubusercontent.com/YalcinKurt89/dice_game_for_browser/main/images/Won_the_game.jpg" alt="Alt-Text" height="250"/>
 
 ## Getting Started
 
