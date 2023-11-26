@@ -29,7 +29,3 @@ To play the game:
 2. Click on the "Roll Dice" button to start playing.
 
 Feel free to contribute by forking the repository and making enhancements or fixes.
-
-## License
-
-This project is licensed under the [MIT License](insert_link_to_license_here).
