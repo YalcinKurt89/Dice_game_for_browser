@@ -24,7 +24,7 @@ This is a simple dice game created for browsers. It allows players to roll dice 
 ## Getting Started
 
 To play the game:
-1. Access the [game link](https://yalcinkurt89.github.io/dice_game_for_browser/index.html) in your browser.
+1. Access the [game link](https://yalcinkurt89.github.io/Dice_game_for_browser/) in your browser.
 2. Click on the "Roll Dice" button to start playing.
 
 Feel free to contribute by forking the repository and making enhancements or fixes.
